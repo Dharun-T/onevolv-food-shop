@@ -1,0 +1,114 @@
+/* Reset margins & paddings */
+body, h1, h2, h3, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.7;
+  background: #fffdf9;
+  color: #2c2c2c;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #e67e22;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 3px;
+}
+nav a:hover {
+  color: #e67e22;
+  border-bottom: 2px solid #e67e22;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Tables */
+table {
+  width: 70%;
+  margin: 25px auto;
+  border-collapse: collapse; 
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+table th, table td {
+  border: 1px solid #eee; 
+  padding: 12px;
+}
+table th {
+  background: #e67e22;
+  color: #fff;
+  text-transform: uppercase;
+}
+table caption {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Blockquotes (Reviews) */
+blockquote {
+  border-left: 5px solid #e67e22;
+  margin: 25px auto;
+  padding: 15px 25px;
+  background: #fff4e6;
+  font-style: italic;
+  width: 70%;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+blockquote footer {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #666;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
