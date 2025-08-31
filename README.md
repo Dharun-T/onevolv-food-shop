@@ -12,7 +12,7 @@ Includes pages for menu, store hours, contact, and customer reviews.
 
 ## How to View
 Hosted with GitHub Pages:  
-👉 https://YOUR_USERNAME.github.io/onevolv-food-shop/
+👉 https://Dharun-T.github.io/onevolv-food-shop/
 
 ## Tech Used
 - HTML
